@@ -48,7 +48,7 @@ body {
 
 
 .intro:hover {
-    // cursor: pointer;
+    /* // cursor: pointer; */
     font-size: 110px;
     color: orangered;
 }
@@ -102,7 +102,7 @@ body {
     width: 100%;
     align-items: center;
     position: relative;
-    // padding-bottom: 50px;
+    /* // padding-bottom: 50px; */
 }
 
 .item {
