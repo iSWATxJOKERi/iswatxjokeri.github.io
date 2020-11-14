@@ -1,0 +1,198 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.fab {
+    font-size: 56px;
+}
+
+#img1 {
+    height: 600px;
+    border-radius: 5000px;
+}
+
+.icons {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    height: 67px;
+}
+
+#center {
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    margin-bottom: 150px
+}
+
+#hi {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-around;
+    padding-left: 70px;
+    border-left: 3px solid white;
+}
+
+
+.intro:hover {
+    // cursor: pointer;
+    font-size: 110px;
+    color: orangered;
+}
+
+.intro {
+    font-size: 90px;
+    padding: 0 2px;
+}
+
+.sizing {
+    height: 143px;
+}
+
+.fa-angellist:hover {
+    cursor: pointer;
+    color: orangered;
+}
+
+.fa-linkedin-in:hover {
+    cursor: pointer;
+    color: green;
+}
+
+.fa-github:hover {
+    cursor: pointer;
+    color: hotpink;
+}
+
+#resume:hover {
+    cursor: pointer;
+    color: brown;
+}
+
+#resume {
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    // padding-bottom: 50px;
+}
+
+.item {
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#projects::before {
+    content: "";
+    position: absolute;
+    left: 285px;
+    top: 0;
+    height: 3px;
+    width: 70%;
+    border-top: 3px solid white;
+}
+
+#projects::after {
+    content: "";
+    position: absolute;
+    left: 285px;
+    bottom: 0;
+    height: 3px;
+    width: 70%;
+    border-top: 3px solid white;
+}
+
+#little-bio {
+    word-wrap: break-word;
+    width: 60%;
+}
+
+#clipd, #enjoy, #whos-running {
+    display: flex;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.left {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    border-right: 3px solid white;
+}
+
+.title {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.right {
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#preview {
+    width: 100%;
+}
+
+#preview2 {
+    width: 100%;
+}
+
+#preview3 {
+    width: 100%;
+}
+
+.description {
+    width: 70%;
+}
+
+#svgs {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 70%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
