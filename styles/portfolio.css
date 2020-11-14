@@ -13,9 +13,17 @@ body {
     z-index: 1000;
 }
 
-.fab {
+.fab, .fa-bars {
     font-size: 56px;
 }
+
+.fa-bars {
+    align-self: end;
+    position: absolute;
+    left: 50px;
+    display: flex;
+}
+
 
 #img1 {
     height: 600px;
@@ -223,6 +231,6 @@ body {
     text-decoration: underline;
 }
 
-.nt:hover {
+.nt:hover, .fa-bars:hover {
     cursor: pointer;
 }
