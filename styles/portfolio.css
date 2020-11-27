@@ -398,6 +398,7 @@ body {
         word-wrap: break-word;
         width: 60%;
         font-size: 14px;
+        text-align: center;
     }
 
     .lists, .nt {
